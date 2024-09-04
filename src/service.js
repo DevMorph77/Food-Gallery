@@ -1,5 +1,6 @@
 // src/service.js
-const API_URL = 'http://localhost:8000/api/foods';
+
+const API_URL = 'https://foodapi-sy1m.onrender.com/api/foods';
 
 // Fetch all foods
 export async function fetchFoods() {
